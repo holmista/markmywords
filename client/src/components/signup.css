@@ -1,0 +1,66 @@
+.parent{
+    position: relative;
+    width:100%;
+    height:100vh;
+    
+  }
+
+  .inputs{
+    width:420px;
+    height:387px;
+    background-color:pink;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+  }
+  .input1{
+    width: 388px;
+    height: 90px;
+    height:80px;
+    border-radius: 20px;
+  }
+  .input2{
+    width: 380px;
+    height:80px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 30px;
+    border-width: 0px;
+    background-color:rgb(255, 255, 29);
+    margin-bottom: 30px;
+    
+}
+.signupleft{
+    margin-right: 300px;
+}
+.centerinside{
+    width: 380px;
+    height:80px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 30px;
+    border-width: 0px;
+    background-color:rgb(255, 255, 29);
+}
+.signbutton{
+    width:250px;
+    height:70px;
+    border-radius: 20px;
+    outline: none;
+    border-width: 0px;
+    background-color:rgb(158, 245, 66);
+    margin-bottom: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.signbutton:hover{
+    background-color: magenta;
+    transition-duration: 1.1s;
+    
+}
